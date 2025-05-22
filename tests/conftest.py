@@ -1,6 +1,6 @@
 import pytest
 
-from tasks import User
+from tasks import Timer, User
 
 FIRST_TASK_DATA = {
     'andrey': 18,
@@ -10,6 +10,12 @@ FIRST_TASK_DATA = {
     'макс': 25,
 }
 
+
 @pytest.fixture()
 def create_users():
     return [User(name, age) for name, age in FIRST_TASK_DATA.items()]
+
+
+@pytest.fixture()
+def create_timer():
+    return Timer()
