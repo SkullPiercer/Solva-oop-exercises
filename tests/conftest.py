@@ -1,6 +1,6 @@
 import pytest
 
-from tasks import Timer, User
+from tasks import ToDoList, Timer, User
 
 FIRST_TASK_DATA = {
     'andrey': 18,
@@ -19,3 +19,8 @@ def create_users():
 @pytest.fixture()
 def create_timer():
     return Timer()
+
+
+@pytest.fixture
+def todo():
+    return ToDoList()
