@@ -1,6 +1,6 @@
 import pytest
 
-from tasks import ToDoList, Timer, User
+from tasks import ToDoList, Timer, User, WeatherLog
 
 FIRST_TASK_DATA = {
     'andrey': 18,
@@ -24,3 +24,8 @@ def create_timer():
 @pytest.fixture
 def todo():
     return ToDoList()
+
+
+@pytest.fixture
+def weather():
+    return WeatherLog()
