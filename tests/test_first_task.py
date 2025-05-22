@@ -1,5 +1,3 @@
-from tasks.first_task import User
-
 def test_user_greet_method(create_users):
     for user in create_users:
         assert user.greet() == (

@@ -1,6 +1,6 @@
 import pytest
 
-from tasks.first_task import User
+from tasks import User
 
 FIRST_TASK_DATA = {
     'andrey': 18,
