@@ -9,7 +9,7 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone git@github.com:SkullPiercer/FuncTest.git
+git clone git@github.com:SkullPiercer/Solva-oop-exercises.git
 cd FuncTest
 ```
 
@@ -22,7 +22,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-#### 🪟 Windows:
+#### 😜 Windows:
 
 ```bash
 python -m venv venv
