@@ -1,6 +1,6 @@
 import pytest
 
-from tasks import ToDoList, Timer, User, WeatherLog
+from tasks import Timer, ToDoList, User, WeatherLog
 
 FIRST_TASK_DATA = {
     'andrey': 18,
